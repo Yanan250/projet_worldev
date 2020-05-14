@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="worldev@localhost" uuid="d43f56cf-e210-4b92-a1ff-e91a6d372c30">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="worldev@localhost [2]" uuid="eab5337a-2d37-4c5c-a87b-57e6ea56a094">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="worldev@localhost [3]" uuid="cdabce4a-7994-4845-8b35-8e4dd707ea8a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="worldev@localhost [4]" uuid="eede922c-eac3-4098-803e-a44792f90eea">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+    </data-source>
+  </component>
+</project>
