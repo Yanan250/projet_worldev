@@ -3,14 +3,13 @@
 namespace App\Http\Controllers;
 
 
-use App\Voyage;
+use DB;
 
 class TrajetController extends Controller
 {
     public function index()
     {
-        $voyages = Voyage::first()->get();
-
-        return view('trajet.index', compact('voyages'));
+        $last = DB::table('voyages')->latest('id')->first();
+        return view('trajet.index', compact('last'));
     }
 }

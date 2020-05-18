@@ -15,6 +15,7 @@ class CreateTrajetsTable extends Migration
     {
         Schema::create('trajets', function (Blueprint $table) {
             $table->increments('id');
+            $table->unsignedInteger('voyage_id');
             $table->time('heure_depart');
             $table->time('heure_arrivee');
             $table->time('duree_trajet');

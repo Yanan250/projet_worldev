@@ -18,7 +18,7 @@ Route::get('/', 'VoyageController@create')->name('create');
 Route::post('/', 'VoyageController@store')->name('store');
 
 
-Route::get('/trajet', 'TrajetController@index');
+Route::get('trajet', 'TrajetController@index');
 
 
 

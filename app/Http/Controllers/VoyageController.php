@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Voyage;
+use DB;
 use Illuminate\Http\Request;
 
 class VoyageController extends Controller
@@ -20,6 +21,7 @@ class VoyageController extends Controller
         $voyage->date_voyage = $request->date_voyage;
 
         $voyage->save();
+
         return redirect('trajet');
     }
 

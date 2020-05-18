@@ -6,8 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Voyage extends Model
 {
+    protected $guarded = [];
+
     public function trajets()
     {
-        return $this->belongsToMany('App\Trajet');
+        return $this->hasMany('App\Trajet');
     }
 }

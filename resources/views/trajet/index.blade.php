@@ -55,19 +55,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Trajet</h2>
-                @foreach($voyages as $voyage)
-                    <h2>{{ $voyage->ville_depart }}</h2>
-                    <h2>{{ $voyage->ville_arrivee }}</h2>
-                    <h2>{{ $voyage->date_voyage }}</h2>
-                    @endforeach
-                            <!-- Breadcrumbs -->
-                    <nav id="breadcrumbs">
-                        <ul>
-                            <li><a href="#">Voyage</a></li>
-                            <li>Trajet</li>
-                        </ul>
-                    </nav>
+                <h2>{{ $last->ville_depart }}</h2>
+
+                <h2>{{ $last->ville_arrivee }}</h2>
+
+                <h2>{{ $last->date_voyage }}</h2>
+
+                <!-- Breadcrumbs -->
+                <nav id="breadcrumbs">
+                    <ul>
+                        <li><a href="#">Voyage</a></li>
+                        <li>Trajet</li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
