@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Voyage extends Model
 {
-    protected $fillable = ['ville_depart', 'ville_arrivee', 'date_voyage'];
+    public function trajets()
+    {
+        return $this->belongsToMany('App\Trajet');
+    }
 }

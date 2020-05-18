@@ -16,7 +16,7 @@
                     <li><a class="active" href="{{ route('create') }}">Voyage</a></li>
                     <li><a href="{{ route('service') }}">Service</a></li>
                     <li><a href="{{ route('gallery') }}">Gallery</a></li>
-                    <li><a href="{{ route('trajet') }}">Trajet</a></li>
+                    <li><a href="/trajet">Trajet</a></li>
                     <li><a href="{{ route('contact') }}">Reservation</a></li>
                 </ul>
             </div>

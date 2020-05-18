@@ -10,8 +10,7 @@ class VoyageController extends Controller
 {
     public function create()
     {
-        $voyage = new Voyage();
-        return view('voyage.index', compact('voyage'));
+        return view('voyage.index');
     }
 
     public function store(Voyage $voyage, Request $request)
@@ -24,6 +23,10 @@ class VoyageController extends Controller
         return redirect('trajet');
     }
 
+    public function search()
+    {
+
+    }
 
     public function about()
     {

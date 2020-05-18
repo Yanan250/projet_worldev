@@ -68,7 +68,6 @@
                     <li><a href="about.html">About us </a></li>
                     <li><a href="service.html">Service</a></li>
                     <li><a class="active" href="gallery.html">Gallery</a></li>
-                    <li><a href="properties.html">Properties</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li class="social-links"><a href="#"><i class="fa fa-twitter global-radius"></i></a></li>
                     <li class="social-links"><a href="#"><i class="fa fa-facebook global-radius"></i></a></li>

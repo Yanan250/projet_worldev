@@ -79,6 +79,7 @@
                                     <option value="selecttime">Ville de depart</option>
                                     <option value="Abengourou">Abengourou</option>
                                     <option value="Abidjan">Abidjan</option>
+                                    <option value="Yamoussoukro">Yamoussoukro</option>
                                 </select>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -88,6 +89,7 @@
                                     <option value="selecttime">Ville d'arrivee</option>
                                     <option value="Abengourou">Abengourou</option>
                                     <option value="Abidjan">Abidjan</option>
+                                    <option value="Yamoussoukro">Yamoussoukro</option>
                                 </select>
                             </div>
 

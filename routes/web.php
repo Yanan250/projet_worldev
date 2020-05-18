@@ -16,7 +16,11 @@
 
 Route::get('/', 'VoyageController@create')->name('create');
 Route::post('/', 'VoyageController@store')->name('store');
-Route::get('/trajet', 'VoyageController@trajet')->name('trajet');
+
+
+Route::get('/trajet', 'TrajetController@index');
+
+
 
 Route::get('/about', 'VoyageController@about')->name('about');
 Route::get('/contact', 'VoyageController@contact')->name('contact');
