@@ -19,7 +19,7 @@ Route::post('/', 'VoyageController@store')->name('store');
 
 
 Route::get('trajet', 'TrajetController@index');
-
+Route::get('search', 'TrajetController@search')->name('trajet.search');
 
 
 Route::get('/about', 'VoyageController@about')->name('about');
